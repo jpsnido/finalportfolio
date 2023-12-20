@@ -1,0 +1,86 @@
+#jaden {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 20px; /* Add margin-left */
+  padding: 30px; /* Add padding */
+  cursor: pointer;
+}
+
+#writing {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 30px; /* Add padding */
+  cursor: pointer;
+}
+
+.reading-item {
+    display: flex;
+    background-color: rgba(21, 26, 31, 1);
+    padding: 47px 51px;
+  }
+  
+  @media (max-width: 991px) {
+    .reading-item {
+      padding: 0 20px;
+    }
+  }
+  
+  .reading-details {
+    color: #fff;
+  }
+  
+  .reading-title,
+  .reading-week,
+  .reading-content {
+    margin-bottom: 20px;
+  }
+  
+  .reading-title {
+    font: 600 24px Montserrat, sans-serif;
+  }
+  
+  .reading-week {
+    font: 400 14px Montserrat, sans-serif;
+    color:#a8a8a8
+  }
+  .reading-content {
+    font: 400 16px Montserrat, sans-serif;
+  }
+  
+  .reading-content {
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  
+  .img {
+    width: 345px; /* Adjusted to accommodate the padding */
+    height: 250px; /* Adjusted to accommodate the padding */
+    object-fit: cover;
+    padding: 20px; /* Add 20 pixels of padding */
+    box-sizing: content-box; /* Make sure padding is included in the specified width and height */
+}
+
+@media (max-width: 991px) {
+    .img {
+        width: 100%;
+        height: auto; /* Maintain the aspect ratio */
+        margin-top: 28px;
+        padding: 20px; /* Reset padding for smaller screens if needed */
+    }
+}
+
+body {
+  background-color: rgba(21, 26, 31, 1);
+}
